@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+
+
+
+</head>
+<body>
+<h1><center> Javascript Fuction and Events </center></h1>
+
+<p id="demo">
+click me!
+
+
+</p>
+
+
+<script>
+document.getElementById("demo").onmousedown=function(){down()}
+document.getElementById("demo").onmouseup=function(){up()}
+
+function down(){
+    document.getElementById("demo").innerHTML="The mouse button is held down";
+
+}
+function up(){
+    document.getElementById("demo").innerHTML="You realeased the button"
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>

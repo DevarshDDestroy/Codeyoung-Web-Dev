@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+    create a webpage with the following steps
+1. create a button 
+2. when button is clicked a prompt needs to be opened with the text (Please enter your name)
+3. after entering your name you have to get the text (Name, Welcome to the class...)-->
+<head>
+
+
+
+</head>
+<body>
+
+<h1><center> Project On Events </center></h1>
+
+<p id="class1"></p>
+<button type="button"  onclick="myfunction()">Click here to register into class #1</button>
+
+<script>
+
+
+function myfunction(){
+   
+    let text
+    let name= prompt("Enter Your name:")
+if(name==null||name==""||name==" "){
+text="user cancelled the prompt"
+}
+else{
+    text=name+", welcome to the class."
+}
+document.getElementById("class1").innerHTML=text
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+</html>

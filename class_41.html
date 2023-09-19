@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+     div.relative{
+     border:3px dotted yellowgreen;
+     position:relative;
+     width:400px;
+     height:200px
+    }
+    div.absolute{
+        border:3px solid blueviolet;
+        position:absolute;
+        width:200px;
+        height:100px;
+        top:80px;
+        right:0px;
+    }
+    </style>
+</head>
+<body>
+<h1><center> Displaying and Positioning of an element </center></h1>
+
+<p style="display:inline"> Inline element takes the required width only. It doesn't force the line break so the flow of text doesn't break in inline example. </p>
+<br>
+<p style="display:inline-block">CSS display inline-block element is very similar to inline element but 
+    the difference is that you are able to set the width and height</p>
+<br>
+<p style="display:block">CSS display block element takes as much as horizontal space as they
+    can. Means the block element takes the full available width. They 
+    make a line break before and after them.</p>
+
+
+
+    <h2>CSS Positioning: The CSS position property is used to set position of an element.
+        You can position an element using the top, bottom, left, and right.
+    </h2>
+<h3>There are 5 different position values
+</h3>
+
+<h4>Static, Relative, fixed, absolute, and Sticky</h4>
+<p style="border:3px solid blue;position:static">
+POSITION=STATIC, an element with position static, is not position is any special way, and it is always positioned
+according to the normal flow of the page.
+
+</p>
+<p style="border:3px dashed red;position:relative; left:50px">
+    POSITION=RELATIVE, an element with= position relative 
+    is positioned relative towards normal position value.
+</p>
+<p style="border:3px dotted green;position:fixed;bottom:0;right:0;width:1000px">
+    POSITION=FIXED, an element with position fixed, is positioned
+    relative to the view, which means it always stays in the same place
+    even if the page is scrolled. We can use top, right, bottom, and left
+     properties.
+</p>
+
+<p >
+    POSTIONED=ABSOLUTE, an element with position absolute is positioned to the nearest
+    positioned ancestor.
+</p>
+<div class="relative">This div element has position: relative;
+    <div class="absolute">This div element has position: absolute;</div>
+  
+</div>
+<p>
+    Hello, everyone! This is the LONGEST TEXT EVER! I was inspired by the various other "longest texts ever" on the internet, and I wanted to make my own. So here it is! This is going to be a WORLD RECORD! This is actually my third attempt at doing this. The first time, I didn't save it. The second time, the Neocities editor crashed. Now I'm writing this in Notepad, then copying it into the 
+    Neocities editor instead of typing it directly in the Neocities editor to avoid crashing. It sucks that my past two attempts are gone now. Those actually got pretty long. Not the longest, but still pretty long. I hope this one won't get lost somehow. Anyways, let's talk about WAFFLES! I like waffles. Waffles are cool.
+     Waffles is a funny word. There's a Teen Titans Go episode called "Waffles" where the word "Waffles" is said a hundred-something times. It's pretty annoying. There's also a Teen Titans Go episode about Pig Latin. Don't know what Pig Latin
+
+
+</p>
+<h2 style="position: -webkit-sticky;
+position: sticky;
+top: 0;
+padding: 5px;
+background-color: #cae8ca;
+border: 2px solid #4CAF50;
+">I am sticky</h2>
+</body>
+
+
+
+
+</html>
